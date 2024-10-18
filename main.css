@@ -1,0 +1,90 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('images/background.jpg'); /* Add your background image here */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    color: #333333; /* Change text color for better contrast */
+}
+
+header {
+    background: rgba(9, 6, 101, 0.8); /* Add some transparency to the header background */
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    background: rgba(216, 120, 120, 0.9); /* Slightly transparent white background */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #000000;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(53, 66, 74, 0.8); /* Add some transparency to the footer background */
+    color: #000000;
+}
+.highlight {
+    background-color: #047204; /* Change this color to your desired background color */
+    padding: 2px 4px; /* Optional: add some padding around the text */
+    border-radius: 3px; /* Optional: rounded corners for the background */
+}
+p{
+    color: #000000;
+}
